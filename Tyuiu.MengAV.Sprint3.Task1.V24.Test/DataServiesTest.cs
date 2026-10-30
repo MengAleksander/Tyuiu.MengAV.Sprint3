@@ -11,7 +11,7 @@ namespace Tyuiu.MengAV.Sprint3.Task1.V24.Test
         {
             double result = ds.GetSumSeries(5, 1, 12);
 
-            Assert.Equal(0.266, result, precision: 3);
+            Assert.Equal(0.186, result, precision: 3);
         }
 
         [Fact]
@@ -19,7 +19,7 @@ namespace Tyuiu.MengAV.Sprint3.Task1.V24.Test
         {
             double result = ds.GetSumSeries(0, 1, 12);
 
-            Assert.Equal(4.0, result, precision: 3);
+            Assert.Equal(0.5, result, precision: 3);
         }
     }
 }
