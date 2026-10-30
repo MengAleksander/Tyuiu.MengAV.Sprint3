@@ -11,7 +11,7 @@ namespace Tyuiu.MengAV.Sprint3.Task1.V24.Lib
 
             while (i <= stopValue)
             {
-                sum += 2.0d / (6 + Math.Pow(value, i));
+                sum += 2.0d / Math.Pow((6 + Math.Pow(value, i)), i);
                 i++;
             }
 

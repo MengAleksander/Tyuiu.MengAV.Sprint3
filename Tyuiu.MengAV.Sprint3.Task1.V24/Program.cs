@@ -9,7 +9,7 @@ Dictionary<string, string> zam = new Dictionary<string, string>
 {{"{{HZ}}", "1"},
 {"{{HV}}", "24"},
 {"{{TY}}", "Написать программу используя цикл while, которая вычисляет сумму ряда по формуле, при х=5"},
-{"{{TV}}", "S = Σ(i=1 to 12) (2 / (6 + x^i))  x=5"}};
+{"{{TV}}", "S = Σ(i=1 to 12) (2 / (6 + x^i))^i  x=5"}};
 
 foreach (var key in zam)
 {
