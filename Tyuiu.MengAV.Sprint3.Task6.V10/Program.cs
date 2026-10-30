@@ -6,10 +6,10 @@ DataServies ds = new DataServies();
 string text = File.ReadAllText(@"../../../../Cap.txt");
 
 Dictionary<string, string> zam = new Dictionary<string, string>
-{{"{{HZ}}", "5"},
-{"{{HV}}", "15"},
-{"{{TY}}", "y = Σ(i=1 to 3) Σ(k=1 to 10) (sin(x) + k^2/2)"},
-{"{{TV}}", "Х=5"}};
+{{"{{HZ}}", "6"},
+{"{{HV}}", "10"},
+{"{{TY}}", "Напишите программу, которая ищет среди целых чисел, принадлежащих числовому отрезку [20, 32] сумму всех делителей больше 12"},
+{"{{TV}}", "[20, 32]"}};
 
 foreach (var key in zam)
 {
